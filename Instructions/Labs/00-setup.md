@@ -48,6 +48,10 @@ You'll use a single Azure CLI script in Cloud Shell to create a resource group a
     curl -sL https://raw.githubusercontent.com/MicrosoftLearning/DP-750T00-Implement-Data-Engineering-Solutions-using-Azure-Databricks/refs/heads/main/Instructions/Labs/00-setup.sh | bash
     ```
 
+   ```bash
+    curl -sL https://raw.githubusercontent.com/Sanket2556/DP-750T00-Implement-Data-Engineering-Solutions-using-Azure-Databricks/refs/heads/main/Instructions/Labs/00-setup.sh | bash
+    ```
+
 2. Wait for the deployment to finish. This takes approximately **5 minutes**. 
 
 > [!NOTE]
