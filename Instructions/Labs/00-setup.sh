@@ -6,11 +6,11 @@
 set -e
 
 # Select a region: use the first argument if provided, otherwise pick a random one
-REGIONS=( australiaeast australiasoutheast brazilsouth canadacentral canadaeast centralindia centralus eastasia eastus eastus2 francecentral germanywestcentral japaneast koreacentral northcentralus northeurope norwayeast southcentralus southeastasia swedencentral switzerlandnorth uksouth westeurope westus westus2 westus3 )
+REGIONS=( eastus2 )
 REGION=${1:-${REGIONS[$RANDOM % ${#REGIONS[@]}]}}
 
-RESOURCE_GROUP="rg-dp750"
-WORKSPACE_NAME="adb-dp750"
+RESOURCE_GROUP="rg-dp750-eastus2"
+WORKSPACE_NAME="adb-dp750-eastus2"
 
 echo "Installing az databricks extension..."
 az config set core.collect_telemetry=no 2>/dev/null
