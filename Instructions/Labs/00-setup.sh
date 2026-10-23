@@ -6,8 +6,8 @@
 set -e
 
 # Select a region: use the first argument if provided, otherwise pick a random one
-REGIONS=( eastus )
-REGION=${1:-${REGIONS[$RANDOM % ${#REGIONS[@]}]}}
+#REGIONS=( eastus )
+REGION=eastus
 
 RESOURCE_GROUP="rg-dp750-eastus"
 WORKSPACE_NAME="adb-dp750-eastus"
